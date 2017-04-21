@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="wasteApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- build:css styles/vendor.css -->
+	<link href="lib/angular-toastr/angular-toastr.css" rel="stylesheet"/>
+	<link href="lib/angular-busy/angular-busy.css" rel="stylesheet"/>
+	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="lib/jeDate-gh-pages/css/jedate.css" rel="stylesheet">
+	<link href="lib/ui-grid/css/ui-grid.css" rel="stylesheet">
+	<!-- endbuild -->
+
+	<!-- build:css styles/index.css-->
+
+	<!-- endbuild -->
+	<script type="text/javascript"
+			src="http://webapi.amap.com/maps?v=1.3&key=407a4fad7fcbf5a1be61fa52c9b17f1b"></script>
+	<!-- build:js scripts/fit.js -->
+	<!--[if lt IE 9]>
+	<script src="lib/respond.js"></script>
+	<script src="lib/html5.js"></script>
+	<![endif]-->
+	<!-- endbuild -->
+</head>
+
+<body id="lb-body" resize>
+	<div ui-view="main" class="lb-main" resize ></div>
+	<!-- build:js scripts/vendor.js -->
+	<!--公共-->
+	<script src="lib/jquery-1.12.4.min.js"></script>
+	<script src="lib/baiduPlayer/cyberplayer.js"></script>
+	<script src="lib/plupload/plupload.full.min.js"></script>
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/angular/i18n/angular-locale_zh-cn.js"></script>
+	<script src="lib/angular/route/angular-ui-router.min.js"></script>
+	<script src="lib/angular/touch/angular-touch.min.js"></script>
+	<script src="lib/angular/animate/angular-animate.min.js"></script>
+	<script src="lib/angular/resource/angular-resource.js"></script>
+	<script src="lib/ui-grid/ui-grid.js"></script>
+	<script src="lib/angular-toastr/angular-toastr.tpls.min.js"></script>
+	<script src="lib/angular-busy/angular-busy.js"></script>
+	<script src="lib/angular/bootstrap/ui-bootstrap-tpls-2.1.3.js"></script>
+	<script src="lib/angular/lazy/ocLazyLoad.min.js"></script>
+	<script src="lib/echarts/echarts.js"></script>
+	<script src="lib/bootstrap/bootstrap.min.js"></script>
+	<script src="lib/echarts/dark.js"></script>
+	<script src="lib/echarts/china.js"></script>
+	<!--fullPage 滚屏插件-->
+	<script src="lib/fullPage/js/jquery.fullPage.js"></script>
+
+	<!-- endbuild -->
+
+	<!-- build:js scripts/index.js -->
+	<script src="js/common/waste.app.js"></script>
+	<script src="js/common/waste.main.js"></script>
+	<script src="js/common/config.router.js"></script>
+	<script src="js/common/directive/lbResize.js"></script>
+	<script src="js/common/directive/mapDirective.js"></script>
+	<script src="js/common/directive/lb_mapDirective.js"></script>
+	<script src="js/common/directive/lb_ngPlupload.js"></script>
+	<script src="js/common/directive/lb_echarts.js"></script>
+	<script src="js/common/directive/lb_navbar.js"></script>
+	<script src="js/common/filters/lb_addStr.js"></script>
+	<script src="js/common/directive/lb_limitNumber.js"></script>
+	<script src="js/common/directive/lb_baiduPlayer.js"></script>
+	<script src="js/common/directive/lb_drag.js"></script>
+	<script src="js/common/directive/lb_autoScrollup.js"></script>
+	<script src="js/common/directive/timeFormat.js"></script>
+	<script src="js/common/directive/placeholder.js"></script>
+	<script src="js/common/service/lb_publicApi.js"></script>
+	<script src="js/common/service/lb_authority.js"></script>
+	<script src="js/common/service/lb_util.js"></script>
+	<script src="js/common/directive/lb_jeDate.js"></script>
+	<script src="js/common/filters/keepTwoDec.js"></script>
+	<!--<script src="js/common/filters/keepSixDec.js"></script>-->
+	<script src="js/common/filters/minisecToMMdd.js"></script>
+	<script src="js/common/directive/wp_checkNumber.js"></script>
+	<script src="js/common/directive/oneStop.js"></script>
+	<script src="js/common/directive/identifyingCode.js"></script>
+
+	<!-- endbuild -->
+</body>
+</html>
