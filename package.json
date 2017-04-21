@@ -4,7 +4,8 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "gulp": "gulp"
+    "server": "gulp",
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
