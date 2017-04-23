@@ -42,6 +42,7 @@
             titleClass: 'toast-title',
             toastClass: 'toast'
         });
+
         $provide.factory('httpInterceptor', ['$location', function ($location) {
             return {
                 // optional method
